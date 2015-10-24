@@ -1,3 +1,4 @@
+# require 'pry'
 require 'active_support/all'
 
 @candidates = [
@@ -25,6 +26,7 @@ require 'active_support/all'
     date_applied: 1.day.ago.to_date,
     age: 32
   },
+
   {
     id: 10,
     years_of_experience: 3,

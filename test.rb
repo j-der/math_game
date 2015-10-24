@@ -1,0 +1,2 @@
+require './candidates'
+require './filters'

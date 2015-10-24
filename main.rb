@@ -4,9 +4,9 @@
 require 'pry'
 require './candidates'
 require './filters'
-
-## Your test code can go here
+require 'active_support/all'
 
 # binding.pry
 
-pp qualified_candidates
+pp qualified_candidates(@candidates)
+pp ordered_by_qualifications(@candidates)
